@@ -1,4 +1,4 @@
-USE burgers_db;
+USE cqcurapru42idjql;
 
 INSERT INTO burgers (burger_name) VALUES ('Hamburger');
 INSERT INTO burgers (burger_name) VALUES ('Impossible burger');
