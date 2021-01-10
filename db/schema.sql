@@ -1,6 +1,4 @@
-DROP DATABASE IF EXISTS burgers_db;
-CREATE DATABASE burgers_db;
-USE burgers_db;
+USE cqcurapru42idjql ;
 
 CREATE TABLE burgers
 (
@@ -9,3 +7,8 @@ CREATE TABLE burgers
 	devoured BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
+
+INSERT INTO burgers (burger_name) VALUES ('Hamburger');
+INSERT INTO burgers (burger_name) VALUES ('Impossible burger');
+INSERT INTO burgers (burger_name) VALUES ('Pizza burger');
+INSERT INTO burgers (burger_name) VALUES ('Turkey Burger');
